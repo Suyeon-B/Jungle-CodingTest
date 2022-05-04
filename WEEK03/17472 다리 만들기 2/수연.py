@@ -70,7 +70,6 @@ for x in range(n):
             islandNum += 1
 
 # 2. 섬 dictionary bfs 탐색 시작
-
 edges = []
 for x,y,curLand in landArr:
     for a,b in move: 
